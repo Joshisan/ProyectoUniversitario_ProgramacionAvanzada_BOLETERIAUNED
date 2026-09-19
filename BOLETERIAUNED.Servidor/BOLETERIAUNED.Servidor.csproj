@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\BOLETERIAUNED.Entidades\BOLETERIAUNED.Entidades.csproj" />
+    <ProjectReference Include="..\BOLETERIAUNED.AccesoDatos\BOLETERIAUNED.AccesoDatos.csproj" />
+    <ProjectReference Include="..\BOLETERIAUNED.LogicaNegocio\BOLETERIAUNED.LogicaNegocio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.9" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>BOLETERIAUNED.Servidor.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

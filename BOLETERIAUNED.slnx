@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BOLETERIAUNED.AccesoDatos/BOLETERIAUNED.AccesoDatos.csproj" />
+  <Project Path="BOLETERIAUNED.Cliente/BOLETERIAUNED.Cliente.csproj" />
+  <Project Path="BOLETERIAUNED.Entidades/BOLETERIAUNED.Entidades.csproj" />
+  <Project Path="BOLETERIAUNED.LogicaNegocio/BOLETERIAUNED.LogicaNegocio.csproj" />
+  <Project Path="BOLETERIAUNED.Servidor/BOLETERIAUNED.Servidor.csproj" />
+</Solution>
